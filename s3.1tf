@@ -2,5 +2,6 @@ module "s3_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
 
   bucket = "jenkins-bucket"
+   region = "ap-south-1"
 
 }
